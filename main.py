@@ -32,9 +32,9 @@ bernie_test_2020 = "Pstance/raw_test_bernie.csv"
 
 # In the cross-target stance detection task, we train and test our model on different combinations of politicans' data.
 
-#X_train,y_train,X_validation,y_validation,X_test,y_test,word_dict,max_length = Util.get_data(train=[biden_train_2020],val=[hillary_val_2016],test=[hillary_test_2016]) #Biden => Hillary
+X_train,y_train,X_validation,y_validation,X_test,y_test,word_dict,max_length = Util.get_data(train=[biden_train_2020],val=[hillary_val_2016],test=[hillary_test_2016]) #Biden => Hillary
 #X_train,y_train,X_validation,y_validation,X_test,y_test,word_dict,max_length = Util.get_data(train=[bernie_train_2020],val=[hillary_val_2016],test=[hillary_test_2016]) #Bernie => Hillary
-X_train,y_train,X_validation,y_validation,X_test,y_test,word_dict,max_length =  Util.get_data(train=[trump_train_2020],val=[hillary_val_2016],test=[hillary_test_2016]) #Trump => Hillary
+#X_train,y_train,X_validation,y_validation,X_test,y_test,word_dict,max_length =  Util.get_data(train=[trump_train_2020],val=[hillary_val_2016],test=[hillary_test_2016]) #Trump => Hillary
 #X_train,y_train,X_validation,y_validation,X_test,y_test,word_dict,max_length = Util.get_data(train=[trump_train_2020],val=[biden_val_2020],test=[biden_test_2020]) #Trump => Biden
 #X_train,y_train,X_validation,y_validation,X_test,y_test,word_dict,max_length = Util.get_data(train=[trump_train_2020],val=[bernie_val_2020],test=[bernie_test_2020]) #Trump => Bernie
 #X_train,y_train,X_validation,y_validation,X_test,y_test,word_dict,max_length = Util.get_data(train=[biden_train_2020],val=[trump_val_2020],test=[trump_test_2020]) #Biden => Trump
