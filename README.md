@@ -1,4 +1,4 @@
-# Stance_Detection
+# Cross-target and Cross-topic stance detection on politicians.
 Project for CS559 - Deep Learning course.
 
 Cross-target and cross-target stance detection implemented in tensorflow. 
