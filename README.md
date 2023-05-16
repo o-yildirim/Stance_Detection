@@ -4,7 +4,7 @@ Project for CS559 - Deep Learning course.
 Cross-target and cross-target stance detection implemented in Tensorflow. 
 
 
-Datasets used in this experiment are SemEval2016 task 6[1] and P-stance[2] datasets.
+Datasets used in this experiment are SemEval2016 task 6 [1] and P-stance [2] datasets.
 
 [1] S. Mohammad, S. Kiritchenko, P. Sobhani, X. Zhu, C. Cherry, ‘Semeval2016 task 6: Detecting stance in tweets’,
     Proceedings of the 10th international workshop on semantic evaluation (SemEval-2016), 2016, . 31–41.
